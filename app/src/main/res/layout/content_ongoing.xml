@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ongoing"
+    tools:showIn="@layout/activity_ongoing">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/pname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000"
+            android:fontFamily="@font/dancing_script_bold"
+            android:textSize="15dp"
+            android:layout_marginTop="3dp"
+            />
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+        <TextView
+            android:id="@+id/docname"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/dancing_script_bold"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:layout_marginTop="3dp"
+            />
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        <TextView
+            android:id="@+id/clinicname"
+            android:fontFamily="@font/dancing_script_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:layout_marginTop="3dp"
+            />
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        <TextView
+            android:id="@+id/apdate"
+            android:fontFamily="@font/dancing_script_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:layout_marginTop="3dp"
+            />
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        <TextView
+            android:id="@+id/token"
+            android:fontFamily="@font/dancing_script_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:layout_marginTop="3dp"
+            />
+
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/googleMap"
+            android:layout_marginTop="5dp"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        <TextView
+            android:id="@+id/esttime"
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/dancing_script_bold"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:layout_marginTop="3dp"
+            />
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+        <TextView
+            android:id="@+id/currenttoken"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:fontFamily="@font/dancing_script_bold"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:layout_marginTop="3dp"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

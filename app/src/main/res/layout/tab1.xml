@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="68dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/cardiologist" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="202dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:clickable="true"
+            android:text="Cardiologist"
+            android:textColor="#0717ad"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="82dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/dentist" />
+    <TextView
+        android:id="@+id/text6"
+        android:clickable="true"
+        android:layout_width="196dp"
+        android:layout_marginLeft="38dp"
+        android:layout_height="28dp"
+        android:text="Dentist"
+        android:textColor="#0717ad"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="89dp"
+        android:layout_marginTop="25dp"
+        tools:layout_editor_absoluteY="133dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/genralphysician" />
+    <TextView
+        android:id="@+id/text7"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="General Physician"
+        android:textColor="#0717ad"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="89dp"
+        android:layout_marginTop="25dp"
+        tools:layout_editor_absoluteY="190dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ortho" />
+    <TextView
+        android:id="@+id/text8"
+        android:clickable="true"
+        android:layout_width="150dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="40dp"
+        android:text="Orthopaedician"
+        android:textColor="#0717ad"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="89dp"
+        android:layout_marginTop="25dp"
+        tools:layout_editor_absoluteY="253dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/pediatrician" />
+
+
+    <TextView
+        android:id="@+id/text9"
+        android:clickable="true"
+        android:layout_marginLeft="40dp"
+        android:layout_width="120dp"
+        android:layout_height="34dp"
+        android:text="Pediatrician"
+        android:textSize="20sp"
+        android:textColor="#0717ad"
+        android:layout_marginTop="25dp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="307dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/dermetalogist" />
+
+    <TextView
+        android:id="@+id/text10"
+        android:clickable="true"
+        android:layout_width="140dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:text="Dermatologist"
+        android:textColor="#0717ad"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="368dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="54dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/neurologist" />
+    <TextView
+        android:id="@+id/text11"
+        android:layout_width="120dp"
+        android:clickable="true"
+        android:layout_height="32dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="40dp"
+        android:text="Neurologist"
+        android:textColor="#0717ad"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="428dp" />
+    </LinearLayout>
+</LinearLayout>

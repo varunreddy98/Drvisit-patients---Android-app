@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ef413b</color>
+    <color name="colorPrimaryDark">#ef413b</color>
+    <color name="colorAccent">#ef413b</color>
+    <color name="colorYello">#FFCE54</color>
+
+    <color name="colorBettersweet1">#FC6E51</color>
+
+    <color name="colorBettersweet2">#E9573F</color>
+
+    <color name="mint1">#48CFAD</color>
+    <color name="grey">#b9b7b7</color>
+
+    <color name="bg_login">#26ae90</color>
+ <color name="bg_register">#2e3237</color>
+<color name="bg_main">#428bca</color>
+<color name="white">#ffffff</color>
+<color name="input_login">#222222</color>
+<color name="input_login_hint">#999999</color>
+<color name="input_register">#888888</color>
+<color name="input_register_bg">#3b4148</color>
+<color name="input_register_hint">#5e6266</color>
+<color name="btn_login">#26ae90</color>
+<color name="btn_login_bg">#eceef1</color>
+<color name="lbl_name">#333333</color>
+<color name="btn_logut_bg">#ff6861</color>
+    <color name="mint2">#37BC9B</color>
+
+    <color name="aqua1">#4FC1E9</color>
+    <color name="notification">#f9d7d7</color>
+
+    <color name="aqua2">#3BAFDA</color>
+
+    <color name="blue1">#bbdefb</color>
+
+    <color name="dark_orange">#f57f17</color>
+
+    <color name="bb">#006f94</color>
+
+    <color name="bg_user_message">#ffffff</color>
+
+    <color name="primary_dark">#E64A19</color>
+
+    <color name="primary">#FF5722</color>
+
+    <color name="accent">#448AFF</color>
+
+    <color name="divider">#B6B6B6</color>
+
+    <color name="text_color">#FFFFFF</color>
+
+    <color name="text_color_icon">#0c0b0b</color>
+
+    <color name="yello_one">#FDC94F</color>
+
+    <color name="purple_dark">#673ab7</color>
+
+    <color name="red">#b71c1c</color>
+
+    <color name="mint">#48cfad</color>
+
+    <color name="purple_red">#8b42e4</color>
+
+    <color name="sky2">#5DDCD2</color>
+
+    <color name="sky">#3bafda</color>
+
+    <color name="skyDark">#1A90A0</color>
+
+    <color name="orange_lite">#FD757C</color>
+
+
+    <color name="black_overlay">#66000000</color>
+</resources>

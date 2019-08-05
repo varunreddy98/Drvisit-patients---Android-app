@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="221dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="31dp"
+            android:background="#92caf5"/>
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:id="@+id/button1"
+            android:background="@android:color/holo_green_light"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:text="search"/>
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/googleMap"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/next5"
+        android:layout_width="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="510dp"
+        android:textSize="19sp"
+        android:background="#F52887"
+        android:textAlignment="center"
+        android:text="Submit"
+        android:textColor="@color/white" />
+</RelativeLayout>

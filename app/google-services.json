@@ -1,0 +1,63 @@
+{
+"project_info": {
+"project_number": "962047635618",
+"firebase_url": "https://forms-210605.firebaseio.com",
+"project_id": "forms-210605",
+"storage_bucket": "forms-210605.appspot.com"
+},
+"client": [
+{
+"client_info": {
+"mobilesdk_app_id": "1:962047635618:android:b4aff37e82021f1c",
+"android_client_info": {
+"package_name": "com.example.varunsai.myapplication"
+}
+},
+"oauth_client": [
+{
+"client_id": "962047635618-p546bt42ddfgf9bt381hgb4huinh5ma8.apps.googleusercontent.com",
+"client_type": 1,
+"android_info": {
+"package_name": "com.example.varunsai.myapplication",
+"certificate_hash": "162cee579571bce37ac9537cb4d07ac74b12fe87"
+}
+},
+{
+"client_id": "962047635618-at64tth0cfqcq36ndcpl8hs2p6pip33l.apps.googleusercontent.com",
+"client_type": 1,
+"android_info": {
+"package_name": "com.example.varunsai.myapplication",
+"certificate_hash": "3dfc7ee3aed50e36aa7598f3d298011fa793c4a3"
+}
+},
+{
+"client_id": "962047635618-847g6epcinv19nbp5okigekvl0dn1n0s.apps.googleusercontent.com",
+"client_type": 3
+}
+],
+"api_key": [
+{
+"current_key": "AIzaSyCvSfh5a2jFiYE0M4gyCkHFQdIUguJapqI"
+}
+],
+"services": {
+"analytics_service": {
+"status": 1
+},
+"appinvite_service": {
+"status": 2,
+"other_platform_oauth_client": [
+{
+"client_id": "962047635618-847g6epcinv19nbp5okigekvl0dn1n0s.apps.googleusercontent.com",
+"client_type": 3
+}
+]
+},
+"ads_service": {
+"status": 2
+}
+}
+}
+],
+"configuration_version": "1"
+}

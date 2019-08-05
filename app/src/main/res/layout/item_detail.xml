@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/spec" />
+            <TextView
+                android:id="@+id/text_view2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:text="specialisation"
+                android:textColor="#0717ad"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="89dp"
+                android:layout_marginTop="25dp"
+                tools:layout_editor_absoluteY="253dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/experience" />
+            <TextView
+                android:id="@+id/text_view3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:text="experience"
+                android:textColor="#0717ad"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="89dp"
+                android:layout_marginTop="25dp"
+                tools:layout_editor_absoluteY="253dp" />
+        </LinearLayout>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+
+            android:layout_height="1dp"
+
+            android:background="@color/grey" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="54dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/clinic" />
+
+            <Spinner
+                android:id="@+id/clinic"
+                android:layout_width="250dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="20dp"
+                android:paddingBottom="13dp"
+                android:background="@drawable/bg_spinner"/>
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="57dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/fees" />
+        <TextView
+            android:id="@+id/text_view4"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:text="fees"
+            android:textColor="#0717ad"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="89dp"
+            android:layout_marginTop="15dp"
+            tools:layout_editor_absoluteY="253dp" />
+    </LinearLayout>
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+
+            android:layout_height="1dp"
+
+            android:background="@color/grey" />
+        
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+        <View
+            android:layout_marginTop="1dp"
+            android:layout_width="match_parent"
+
+            android:layout_height="1dp"
+
+            android:background="@color/grey" />
+
+        <TextView
+            android:id="@+id/text_view6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:textColor="#101010"
+            android:textSize="16sp"
+            android:textStyle="normal" />
+        <TextView
+            android:id="@+id/text_view7"
+            android:layout_width="match_parent"
+            android:textColor="#38b3ff"
+            android:textStyle="normal"
+            android:clickable="true"
+            android:textSize="16sp"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

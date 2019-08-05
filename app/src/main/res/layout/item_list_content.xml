@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="160dp"
+    android:paddingTop="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:background="@drawable/rounded"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="8dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView3"
+                android:layout_alignStart="@+id/id_text"
+                android:fontFamily="@font/dancing_script_bold"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="24dp"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textColor="#8d34f9"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/id_text"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dancing_script_bold"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="124dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textColor="#101010"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="165dp"
+                android:fontFamily="@font/dancing_script_bold"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="124dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textColor="#101010"
+                android:typeface="serif" />
+            
+
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+
+        android:layout_height="1dp"
+
+        android:background="#87f9ddd6" />
+
+
+</LinearLayout>
